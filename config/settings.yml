@@ -1,0 +1,9 @@
+settings:
+  help: "http://www.railstutorial.org/help"
+  book: "http://www.railstutorial.org/book"
+  new: "https://news.railstutorial.org/"
+  ruby_on_rails_tutorial: "https://www.railstutorial.org/"
+  michael_hartl: "https://www.michaelhartl.com/"
+  contact: "https://www.railstutorial.org/contact"
+  ruby_on_rails: "https://rubyonrails.org/"
+  learn_enough: "https://learnenough.com/"
