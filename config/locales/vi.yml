@@ -3,6 +3,8 @@ vi:
   ruby_on_rails: "Ruby on Rails"
   ruby_on_rails_tutorial: "Hướng dẫn Ruby On Rails "
   base_title: "Hướng dẫn Ruby sample app"
+  success: "Chào mừng đến ứng dụng mẫu!"
+  fail_to_create: "Tạo tài khoản thất bại"
   static_pages:
     home:
       welcome: "Chào mừng đến với ứng dụng mẫu"
@@ -18,17 +20,26 @@ vi:
       help-content2: "Để được trợ giúp về ứng dụng demo, hãy xem"
       help: "Trang trợ giúp Rails Tutorial"
       book: "Sách Hướng dẫn Ruby on Rails"
-    users:
-      new:
-        title: "Đăng ký"
-        des: "Đây sẽ là trang đăng ký cho người dùng mới."
-    layouts:
-      header:
-        home: "Trang chủ"
-        help: "Hỗ trợ"
-        log_in: "Đăng nhập"
-      footer:
-        author: "bởi Michael Harlt"
-        about: "Về chúng tôi"
-        contact: "Liên hệ"
-        news: "Tin tức"
+  users:
+    new:
+      title: "Đăng ký"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirm: "Xác nhận"
+      submit: "Tạo tài khoản của tôi"
+    show:
+      user_not_found: "Không tìm thấy tài khoản."
+  layouts:
+    header:
+      home: "Trang chủ"
+      help: "Hỗ trợ"
+      log_in: "Đăng nhập"
+    footer:
+      author: "bởi Michael Harlt"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
+  error:
+    error_valid: "Hiện đang có "
+    error: "lỗi"

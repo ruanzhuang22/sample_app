@@ -3,6 +3,8 @@ en:
   ruby_on_rails: "Ruby on Rails"
   ruby_on_rails_tutorial: "The Ruby on Rails Tutorial"
   base_title: "Ruby on Rails tutorial sample app"
+  success: "Welcome to the Sample App!"
+  fail_to_create: "Fail to create"
   static_pages:
     home:
       welcome: "Welcome to the Sample App"
@@ -21,7 +23,13 @@ en:
   users:
     new:
       title: "Sign up"
-      des: "This will be a sign up page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm: "Confirmation"
+      submit: "Create my account"
+    show:
+      user_not_found: "User not found"
   layouts:
     header:
       home: "Home"
@@ -32,3 +40,6 @@ en:
       about: "About"
       contact: "Contact"
       news: "News"
+  error:
+    error_valid: "The form contains"
+    error: "error"
