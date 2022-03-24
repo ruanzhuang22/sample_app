@@ -1,0 +1,34 @@
+vi:
+  hello: "Xin chào"
+  ruby_on_rails: "Ruby on Rails"
+  ruby_on_rails_tutorial: "Hướng dẫn Ruby On Rails "
+  base_title: "Hướng dẫn Ruby sample app"
+  static_pages:
+    home:
+      welcome: "Chào mừng đến với ứng dụng mẫu"
+      sign_up_now: "Đăng ký ngay!"
+      description1_1: "Đây là trang chủ của"
+      description1_2: "Ung dung Sample"
+    about:
+      title: "Về chúng tôi"
+      learn_enough: "Learn enough"
+    help:
+      title: "Hỗ trợ"
+      help-content1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      help-content2: "Để được trợ giúp về ứng dụng demo, hãy xem"
+      help: "Trang trợ giúp Rails Tutorial"
+      book: "Sách Hướng dẫn Ruby on Rails"
+    users:
+      new:
+        title: "Đăng ký"
+        des: "Đây sẽ là trang đăng ký cho người dùng mới."
+    layouts:
+      header:
+        home: "Trang chủ"
+        help: "Hỗ trợ"
+        log_in: "Đăng nhập"
+      footer:
+        author: "bởi Michael Harlt"
+        about: "Về chúng tôi"
+        contact: "Liên hệ"
+        news: "Tin tức"
