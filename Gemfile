@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 ruby "2.7.5"
+gem "bcrypt", "~>3.1.13"
 gem "bootsnap", require: false
 gem "bootstrap-sass", "~>3.4.1"
 gem "config"
@@ -24,8 +25,6 @@ group :development do
   gem "web-console"
 end
 group :test do
-  # Use system testing [https://guides.rubyonrails.org/testing.html
-  # system-testing]
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"

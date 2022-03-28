@@ -7,3 +7,10 @@ settings:
   contact: "https://www.railstutorial.org/contact"
   ruby_on_rails: "https://rubyonrails.org/"
   learn_enough: "https://learnenough.com/"
+validates:
+  regex:
+    email: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  length:
+    max_name: 25
+    max_email: 50
+    min_pass: 6
