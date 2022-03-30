@@ -35,6 +35,11 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
     footer:
       author: "by Michael Harlt"
       about: "About"
@@ -43,3 +48,12 @@ en:
   error:
     error_valid: "The form contains"
     error: "error"
+  sessions:
+    new:
+      login: "Login"
+      email: "Email"
+      password: "Password"
+      new_user: "New User?"
+      sign_up_now: "Sign up now !"
+    create:
+      invalid_user: "Invalid email/password"
