@@ -55,5 +55,6 @@ vi:
       password: "Mật khẩu"
       new_user: "Chưa có tài khoản? "
       sign_up_now: "Đăng ký ngay!"
+      remember_me: "Nhớ thông tin đăng nhập"
     create:
       invalid_user: "Sai mật khẩu, email"
