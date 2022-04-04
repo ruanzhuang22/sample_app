@@ -35,6 +35,11 @@ vi:
       home: "Trang chủ"
       help: "Hỗ trợ"
       log_in: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      settings: "Cài đặt"
+      profile: "Thông tin cá nhân"
+      log_out: "Đăng xuất"
     footer:
       author: "bởi Michael Harlt"
       about: "Về chúng tôi"
@@ -43,3 +48,12 @@ vi:
   error:
     error_valid: "Hiện đang có "
     error: "lỗi"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      new_user: "Chưa có tài khoản? "
+      sign_up_now: "Đăng ký ngay!"
+    create:
+      invalid_user: "Sai mật khẩu, email"
