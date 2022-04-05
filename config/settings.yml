@@ -11,3 +11,9 @@ settings:
   length_max_name: 25
   length_max_email: 50
   length_min_pass: 6
+gravatar:
+  base_url: "https://www.gravatar.com/avatar"
+  email_url: "https://gravatar.com/emails"
+  size:
+    default: 200
+    index: 50

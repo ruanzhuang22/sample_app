@@ -11,7 +11,8 @@ class User < ApplicationRecord
             format: {with: VALID_EMAIL_REGEX},
             uniqueness: true
   validates :password_digest, presence: true,
-            length: {minimum: Settings.settings.length_min_pass}
+            length: {minimum: Settings.settings.length_min_pass},
+            allow_nil: true
   has_secure_password
 
   class << self
