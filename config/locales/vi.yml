@@ -24,6 +24,10 @@ vi:
     new:
       title: "Đăng ký"
       submit: "Tạo tài khoản của tôi"
+    create:
+      success: "Chào mừng đến với sample app"
+      foul_detection: "Thông tin bạn nhập không hợp hệ!"
+      please_check_email: "Làm ơn kiểm tra email để kích hoạt tài khoản"
     show:
       user_not_found: "Không tìm thấy tài khoản."
     edit:
@@ -76,3 +80,18 @@ vi:
       remember_me: "Nhớ thông tin đăng nhập"
     create:
       invalid_user: "Sai mật khẩu, email"
+      activation_warning: "Tài khoản chưa kích hoạt, vui lòng kiểm tra email của bạn"
+  user_mailer:
+    user:
+      account_activation: "Kích hoạt tài khoản"
+    account_activation:
+      hi: "Xin chào %{name},"
+      welcome_message: "Chào mừng đến với Ứng dụng
+                      mẫu! Nhấn vào liên kết bên dưới để kích hoạt tài khoản"
+      sample_app: "Ứng dụng mẫu"
+      activate: "Kích hoạt"
+  account_activations:
+    edit:
+      invalid_activation_link: "Liên kết không hợp lệ"
+      account_activated: "Tài khoản đã được xác nhận"
+      user_not_found: "Tài khoản không tồn tại!"

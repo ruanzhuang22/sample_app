@@ -22,10 +22,11 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      flash[:success] = t "success"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".please_check_email"
+      redirect_to login_url
     else
-      flash.now[:danger] = t "fail_to_create"
+      flash[:danger] = t ".foul_detection"
       render :new, status: :unprocessable_entity
     end
   end

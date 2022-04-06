@@ -24,6 +24,10 @@ en:
     new:
       title: "Sign up"
       submit: "Create my account"
+    create:
+      success: "Welcome to sample app"
+      foul_detection: "Foul! Something wrong with your info."
+      please_check_email: "Please check your email to activate your account"
     show:
       user_not_found: "User not found"
     edit:
@@ -78,3 +82,17 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid_user: "Invalid email/password"
+      activation_warning: "Account not activated
+                            Check your email for the activation link."
+  user_mailer:
+    account_activation:
+      hi: "Xin chào %{name},"
+      welcome_message: "Chào mừng đến với Ứng dụng
+                      mẫu! Nhấn vào liên kết bên dưới để kích hoạt tài khoản"
+      sample_app: "Ứng dụng mẫu"
+      activate: "Kích hoạt"
+  account_activations:
+    edit:
+      invalid_activation_link: "Liên kết không hợp lệ"
+      account_activated: "Tài khoản đã được xác nhận"
+      user_not_found: "Tài khoản không tồn tại!"
