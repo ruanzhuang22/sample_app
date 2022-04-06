@@ -17,7 +17,7 @@
 
           <% if logged_in? %>
             <li class="nav-item">
-              <%= link_to t(".users"), "#", class: "nav-link" %>
+              <%= link_to t(".users"), users_path, class: "nav-link" %>
             </li>
             <li class="dropdown nav-item">
               <%= link_to t(".account"), "#", class: "dropdow-toggle nav-link",
@@ -28,7 +28,7 @@
                   <%= link_to t(".profile"), current_user, class: "dropdown-item" %>
                 </li>
                 <li>
-                  <%= link_to t(".settings"), "#", class: "dropdown-item" %>
+                  <%= link_to t(".settings"), edit_user_path(current_user), class: "dropdown-item" %>
                 </li>
                 <li class="divider"></li>
                 <li>

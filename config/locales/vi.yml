@@ -23,13 +23,31 @@ vi:
   users:
     new:
       title: "Đăng ký"
-      name: "Tên"
-      email: "Email"
-      password: "Mật khẩu"
-      confirm: "Xác nhận"
       submit: "Tạo tài khoản của tôi"
     show:
       user_not_found: "Không tìm thấy tài khoản."
+    edit:
+      title: "Chỉnh sửa người dùng"
+      title_name: "Cập nhật hồ sơ của bạn"
+      save: "Lưu thay đổi"
+      change: "Thay đổi"
+    form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirm: "Xác nhận mật khẩu"
+    update:
+      profile_updated: "Hồ sơ đã cập nhật!"
+    user:
+      you_sure: "Bạn chắc chưa?"
+      delete: "Xóa"
+    index:
+      all_users: "Tất cả người dùng"
+      please_log_in: "Vui lòng đăng nhập!"
+    destroy:
+      user_deleted: "User đã bị xóa"
+      fail_to_delete: "Có lỗi xảy ra khi xóa người dùng."
+      user_not_found: "người dùng không tồn tại"
   layouts:
     header:
       home: "Trang chủ"

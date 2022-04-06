@@ -43,13 +43,13 @@ textarea {
   font-size: 1.7em;
   color: $white;
   text-transform: uppercase;
-  letter_spacing: -1px;
+  letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 
   &:hover {
     color: $white;
-    text-decooration: none;
+    text-decoration: none;
   }
 }
 
@@ -144,4 +144,15 @@ input {
 #session_remember_me {
   margin-left: 0;
   width: auto;
+}
+
+.users {
+  list-style: none;
+  margin: 0;
+
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }

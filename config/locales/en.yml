@@ -23,13 +23,33 @@ en:
   users:
     new:
       title: "Sign up"
+      submit: "Create my account"
+    show:
+      user_not_found: "User not found"
+    edit:
+      title: "Edit user"
+      title_name: "Update your profile"
+      save: "Save change"
+      change: "Change"
+      user_not_found: "User Not Found"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       confirm: "Confirmation"
-      submit: "Create my account"
-    show:
-      user_not_found: "User not found"
+    update:
+      profile_updated: "Profile Updated!"
+      user_not_found: "User Not Found"
+    user:
+      you_sure: "You sure?"
+      delete: "Delete"
+    index:
+      all_users: "All users"
+      please_log_in: "Please Log in!"
+    destroy:
+      user_deleted: "User Deleted!"
+      fail_to_delete: "Can not delete this user!"
+      user_not_found: "User Not Found"
   layouts:
     header:
       home: "Home"
