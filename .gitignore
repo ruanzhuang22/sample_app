@@ -73,3 +73,6 @@ build-iPhoneSimulator/
 /Procfile.dev
 
 /log/
+
+# Ignore application configuration
+/config/application.yml

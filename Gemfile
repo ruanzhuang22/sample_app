@@ -18,6 +18,7 @@ gem "rails-i18n"
 gem "sprockets-rails"
 gem "stimulus-rails"
 gem "turbo-rails"
+gem "figaro"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :development, :test do
   gem "debug", platforms: [:mri, :mingw, :x64_mingw]
