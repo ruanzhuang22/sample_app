@@ -12,6 +12,7 @@ vi:
       sign_up_now: "Đăng ký ngay!"
       description1_1: "Đây là trang chủ của"
       description1_2: "Ung dung Sample"
+      micropost_feed: "Bài đăng"
     about:
       title: "Về chúng tôi"
       learn_enough: "Learn enough"
@@ -31,6 +32,7 @@ vi:
       please_check_email: "Làm ơn kiểm tra email để kích hoạt tài khoản"
     show:
       user_not_found: "Không tìm thấy tài khoản."
+      microposts: "Bài đăng"
     edit:
       title: "Chỉnh sửa người dùng"
       title_name: "Cập nhật hồ sơ của bạn"
@@ -71,6 +73,9 @@ vi:
   error:
     error_valid: "Hiện đang có "
     error: "lỗi"
+    user_info: "xem hồ sơ của tôi"
+    compose_new_micropost: "Soạn bài đăng mới ..."
+    post: "Đăng tải"
   sessions:
     new:
       login: "Đăng nhập"
@@ -121,3 +126,23 @@ vi:
       password_expire: "Mật khẩu đã được đặt lại."
       reset_success: "Mật khẩu đã được đặt lại"
       reset_fail: "Mật khẩu chưa được đặt lại"
+  microposts:
+    posted: "Đã đăng"
+    ago: "trước kia"
+    delete: "xóa bỏ"
+    confirm: "Bạn chắc chắn?"
+    invalid_format: "Không hợp lệ"
+    large_size: "Kích cỡ phải nhỏ hơn 5mb"
+    create:
+      micropost_created: "Bài đăng đã được tạo!"
+    destroy:
+      micropost_deleted: "Bài đăng đã bị xóa"
+      deleted_fail: "Xóa không thành công"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "Dữ liệu không hợp lệ"
+              large_size: "kích cỡ nên nhỏ hơn 5mb"

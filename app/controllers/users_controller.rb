@@ -9,10 +9,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user
-
-    flash[:danger] = t ".user_not_found"
-    redirect_to help_url
+    @pagy, @microposts = pagy @user.microposts
   end
 
   def new

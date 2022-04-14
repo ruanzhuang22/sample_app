@@ -12,6 +12,7 @@ en:
       sign_up_now: "Sign up now !"
       description1_1: "This is the home page for the"
       description1_2: "sample application"
+      micropost_feed: "Micropost Feed"
     about:
       title: "About"
       learn_enough: "Learn enough"
@@ -31,6 +32,7 @@ en:
       please_check_email: "Please check your email to activate your account"
     show:
       user_not_found: "User not found"
+      microposts: "Microposts"
     edit:
       title: "Edit user"
       title_name: "Update your profile"
@@ -73,6 +75,9 @@ en:
   error:
     error_valid: "The form contains"
     error: "error"
+    user_info: "view my profile"
+    compose_new_micropost: "Compose new micropost..."
+    post: "Post"
   sessions:
     new:
       login: "Login"
@@ -122,3 +127,25 @@ en:
       password_expire: "Password has been reset."
       reset_success: "Your password has been reset"
       reset_success: "Your password has not been reset"
+  microposts:
+    posted: "Posted"
+    ago: "ago"
+    delete: "delete"
+    confirm: "You sure?"
+    invalid_format: "Invalid format"
+    large_size: "should be less than 5mb"
+    maximum_file_size: "Maximum file size is 5MB. Please choose a smaller file."
+    create:
+      micropost_created: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      deleted_fail: "Deleted fail"
+
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "must be a valid image format"
+              large_size: "should be less than 5MB"
