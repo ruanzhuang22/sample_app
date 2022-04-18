@@ -6,6 +6,8 @@ en:
   success: "Welcome to the Sample App!"
   fail_to_create: "Fail to create"
   not_empty: "can't be empty"
+  following_title: "Following"
+  followers_title: "Followers"
   static_pages:
     home:
       welcome: "Welcome to the Sample App"
@@ -57,6 +59,13 @@ en:
       user_deleted: "User Deleted!"
       fail_to_delete: "Can not delete this user!"
       user_not_found: "User Not Found"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_my_profile: "View My Profile"
+      microposts: "microposts"
   layouts:
     header:
       home: "Home"
@@ -78,6 +87,8 @@ en:
     user_info: "view my profile"
     compose_new_micropost: "Compose new micropost..."
     post: "Post"
+    following: "following"
+    followers: "followers"
   sessions:
     new:
       login: "Login"
@@ -128,10 +139,6 @@ en:
       reset_success: "Your password has been reset"
       reset_success: "Your password has not been reset"
   microposts:
-    posted: "Posted"
-    ago: "ago"
-    delete: "delete"
-    confirm: "You sure?"
     invalid_format: "Invalid format"
     large_size: "should be less than 5mb"
     maximum_file_size: "Maximum file size is 5MB. Please choose a smaller file."
@@ -140,7 +147,11 @@ en:
     destroy:
       micropost_deleted: "Micropost deleted"
       deleted_fail: "Deleted fail"
-
+    micropost:
+      delete: "delete"
+      confirm: "You sure?"
+      posted: "Posted"
+      ago: "ago"
   activerecord:
     errors:
       models:
@@ -149,3 +160,5 @@ en:
             image:
               invalid_format: "must be a valid image format"
               large_size: "should be less than 5MB"
+  relationships:
+    relationship_not_found: "Relationship not found!"

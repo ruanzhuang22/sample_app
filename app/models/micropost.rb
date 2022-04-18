@@ -4,8 +4,7 @@ class Micropost < ApplicationRecord
   validates :user_id, presence: true
   validates :content, presence: true,
                       length: {maximum: Settings.settings.length_max_content}
-  validates :image, attached: true,
-                    content_type: {in: Settings.settings.image_type,
+  validates :image, content_type: {in: Settings.settings.image_type,
                                    message: :invalid_format},
                     size: {less_than: Settings.settings.max_image_size
                                               .megabytes,
