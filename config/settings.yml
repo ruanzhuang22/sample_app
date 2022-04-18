@@ -12,6 +12,13 @@ settings:
   length_max_email: 50
   length_min_pass: 6
   expired_password_time: 2
+  length_max_content: 140
+  length_micropost: 50
+  paging_numbers: 20
+  length_user_info: 50
+  image_type: ["image/jpeg", "image/gif", "image/png"]
+  max_image_size: 5
+  image_size_limit: [500,500]
 gravatar:
   base_url: "https://www.gravatar.com/avatar"
   email_url: "https://gravatar.com/emails"
