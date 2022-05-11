@@ -13,7 +13,7 @@ settings:
   length_min_pass: 6
   expired_password_time: 2
   length_max_content: 140
-  length_micropost: 50
+  avatar_size: 50
   paging_numbers: 20
   length_user_info: 50
   image_type: ["image/jpeg", "image/gif", "image/png"]

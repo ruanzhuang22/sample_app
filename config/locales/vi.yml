@@ -6,6 +6,8 @@ vi:
   success: "Chào mừng đến ứng dụng mẫu!"
   fail_to_create: "Tạo tài khoản thất bại"
   not_empty: "không được để trống"
+  following_title: "Đang theo dõi"
+  followers_title: "Được theo dõi"
   static_pages:
     home:
       welcome: "Chào mừng đến với ứng dụng mẫu"
@@ -55,6 +57,13 @@ vi:
       user_deleted: "User đã bị xóa"
       fail_to_delete: "Có lỗi xảy ra khi xóa người dùng."
       user_not_found: "người dùng không tồn tại"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      view_my_profile: "Xem thông tin cá nhân"
+      microposts: "Bài đăng"
   layouts:
     header:
       home: "Trang chủ"
@@ -76,6 +85,8 @@ vi:
     user_info: "xem hồ sơ của tôi"
     compose_new_micropost: "Soạn bài đăng mới ..."
     post: "Đăng tải"
+    following: "theo dõi"
+    followers: "người theo dõi"
   sessions:
     new:
       login: "Đăng nhập"
@@ -127,10 +138,6 @@ vi:
       reset_success: "Mật khẩu đã được đặt lại"
       reset_fail: "Mật khẩu chưa được đặt lại"
   microposts:
-    posted: "Đã đăng"
-    ago: "trước kia"
-    delete: "xóa bỏ"
-    confirm: "Bạn chắc chắn?"
     invalid_format: "Không hợp lệ"
     large_size: "Kích cỡ phải nhỏ hơn 5mb"
     create:
@@ -138,6 +145,11 @@ vi:
     destroy:
       micropost_deleted: "Bài đăng đã bị xóa"
       deleted_fail: "Xóa không thành công"
+    micropost:
+      delete: "xóa bỏ"
+      confirm: "Bạn chắc chắn?"
+      posted: "Đã đăng"
+      ago: "trước"
   activerecord:
     errors:
       models:
@@ -146,3 +158,6 @@ vi:
             image:
               invalid_format: "Dữ liệu không hợp lệ"
               large_size: "kích cỡ nên nhỏ hơn 5mb"
+
+  relationships:
+    relationship_not_found: "Không tìm thấy mối quan hệ!"
